@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloMessageService {
 
-    @Value("${name:unknown}")
+    @Value("${name:Jiya}")
     private String name;
 
     public String getMessage() {
